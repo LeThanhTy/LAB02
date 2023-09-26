@@ -1,0 +1,94 @@
+/*--hàng hóa--*/
+.hh-box {
+    border-radius: 25px;
+    box-shadow: 0 0 5px silver;
+    position: relative;
+    display: inline-block;
+    padding: 20px 0px 80px;
+    text-align: center;
+    width: 250px;
+    background-color: rgba(254, 252, 252, 0.926);
+}
+.hh-smallbox {
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: darkgray;
+}
+.hh-box:hover {
+    box-shadow: 0px 0px 10px rgb(55, 55, 55);
+    color: #000000;
+}
+
+.hh-box-image {
+    width: 150px;
+    height: 200px;
+}
+
+.hh-box-icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 55px;
+}
+
+
+.hh-box-name {
+    position: absolute;
+    right: 0px;
+    bottom: 48px;
+    width: inherit;
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    font-weight: bolder;
+    color: rgb(1, 0, 56);
+}
+
+.hh-box-price {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    font-weight: bold;
+    color: rgb(79, 67, 67);
+    font-family: Tahoma, sans-serif; 
+    font-size: 13px;
+}
+
+
+.hh-box-actions {
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    width: 100px;
+    display: inline; 
+}
+
+.hh-box-actions img {
+    cursor: pointer;
+    border: 0px;
+
+}
+
+li {
+    display: inline-block;
+    margin: 50px 15px 15px 15px;
+}
+
+a img{
+    margin: 5px 5px 0px 0px;
+}
+
+.hh-lagerbox {
+    border-radius: 5px;
+    box-shadow: 0 0 5px silver;
+    position: relative;
+    display: inline-block;
+    padding: 0px 0px 50px;
+    text-align: center;
+    width: 99%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.747),white);
+}
